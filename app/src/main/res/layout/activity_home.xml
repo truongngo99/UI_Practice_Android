@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+
+    tools:context=".HomeActivity">
+    <include layout="@layout/appbar"/>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:elevation="20dp"
+        android:background="@drawable/rounded_corner_card"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Coins"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textSize="18sp"/>
+
+        <ImageView
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_marginLeft="260dp"
+            android:src="@drawable/ic_add_circle"
+            android:contentDescription="@string/image" />
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="ScrollViewCount">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <include layout="@layout/item_coin"/>
+            <include layout="@layout/item_coin"/>
+            <include layout="@layout/item_coin"/>
+            <include layout="@layout/item_coin"/>
+            <include layout="@layout/item_coin"/>
+            <include layout="@layout/item_coin"/>
+            <include layout="@layout/item_coin"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

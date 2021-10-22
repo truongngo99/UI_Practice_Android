@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">PracticeUiInvision</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="sign_up"><u>Sign up</u></string>
+    <string name="update"><u>Update</u></string>
+    <string name="edit"><u>Edit</u></string>
+    <string name="image">Image</string>
+    <string name="my_app">My App</string>
+    <string name="bitcoin">Bitcoin</string>
+</resources>
